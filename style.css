@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+}
+.light {
+  margin-top: 100px;
+  width: 30%;
+}
+button {
+  padding: 20px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.turn-on {
+  position: absolute;
+  top: 630px;
+  left: 670px;
+}
+.turn-off {
+  margin-left: 200px;
+}
+@media screen and (max-width:900px)
+{
+  body {
+    background-color: white;
+  }
+  .turn-on {
+    margin-left: -100px;
+    width: 130px;
+    margin-top: -120px;
+  }
+  .turn-off {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width:600px) {
+  body {
+    background-color: white;
+  }
+  .light {
+  margin-top: 100px;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+.turn-on {
+  position: absolute;
+  top: 419px;
+  left: 320px;
+  width: 100px;
+}
+.turn-off {
+  margin-left: 20px;
+}
+}
